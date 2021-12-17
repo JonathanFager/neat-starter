@@ -1,5 +1,5 @@
 module.exports = {
-  purge: {
+  content: {
     mode: "all",
     content: ["./**/*.html"],
     options: {
@@ -14,6 +14,5 @@ module.exports = {
       colors: {},
     },
   },
-  variants: {},
   plugins: [require("@tailwindcss/typography")],
 };
